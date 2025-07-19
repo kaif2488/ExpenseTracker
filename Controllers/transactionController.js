@@ -17,3 +17,4 @@ const addTransaction = (req, res) => {
     res.status(201).json({ message: 'Transaction added', id: result.insertId });
   });
 };
+module.exports = { addTransaction };
