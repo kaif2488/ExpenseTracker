@@ -33,5 +33,4 @@ const getTransaction =(req, res) =>{
   });
 };
 
-module.exports = { addTransaction };
-module.exports = {getTransaction};
+module.exports = { addTransaction , getTransaction};
